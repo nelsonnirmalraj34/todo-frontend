@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background: linear-gradient(90deg, #b721ff 0%, #21d4fd 100%);
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  border-radius: 0 0 1.5rem 1.5rem;
+  box-shadow: 0 4px 16px rgba(33, 212, 253, 0.15);
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.75rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.nav-link:hover {
+  background: #fff;
+  color: #21d4fd;
+} 
